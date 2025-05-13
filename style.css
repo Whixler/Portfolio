@@ -8,16 +8,20 @@ body{
 .header, .subheader, .footer{
     background-color: #1F2937;
     color: #f9faf8;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .header{
     display: flex;
     justify-content: flex-end;
     gap: 16px;    
+    padding-top: 50px;
 }
 .headerlogo{
-    flex-grow: 2;
+    height: 100px;
+    width: auto;
+    display: flex;
+    
 }
 .footer{
     display: flex;
@@ -28,11 +32,24 @@ body{
 .subheader{
     display:flex;
     flex-direction: column;
-    padding: 100px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    height: 200px;
+    gap: 10px;
 }
 
-.subheader.img{
-    align-self: flex-end;
+.subheader .subtitle{
+    max-width: 600px;
+}
+
+.subheader .logo{
+    display: flex;
+    border: none;
+    height: 50px;
+    flex: 1 1 100px;
+    padding: 0;
+    border-left: 2px solid #E5E7EB;
 }
 
 .title {
@@ -51,35 +68,50 @@ body{
     font-weight: 900;
     justify-content: center;
     padding-top: 50px;
+
 }
-img{
+.image{
     border: 2px solid #3882F6;
-    width: 150px;
+    max-width: 150px;
     height: 150px;
+    width: 150px;
     border-radius: 10px;
 }
 .body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:100px;
+    padding-left:300px;
+    padding-right: 300px;
     padding-top:50px;
+    padding-bottom: 50px;
     gap:20px;
     text-align:justify;
 }
+
+.body .subtext{
+    max-width: 150px;
+    text-align: center;
+}
+
 .quote{
     display: flex;
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size: 36px;
+    font-size: 26px;
     font-style: light italic;
-    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
     flex-direction: column;
 }
 .quote .author{
     font-size: 20px;
     font-weight: 900;
     align-self: flex-end;
+    padding: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 a{
@@ -91,12 +123,20 @@ a{
 .container{
     border: 2px solid, #3882F6;
     background-color: #3882F6;
-    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
     border-radius: 10px;
-    padding:50px;
-    color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    color: #f9faf8;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    height: 40px;
+    align-items: space-evenly;
+
 }
 
 button{
@@ -105,12 +145,13 @@ button{
     width: 100px;
     border-radius: 5px;
     border-color: #3882F6;
+    padding: 5px;
 }
 .call{
     font-weight: 800;
     font-size: 18px;
 }
-.container .button{
-    display: flex;
 
+.container .butcall{
+    border-color: #f9faf8;
 }
