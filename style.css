@@ -5,6 +5,15 @@ body{
     flex-direction: column;
 }   
 
+.aboutbody{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+
 .header, .subheader, .footer{
     background-color: #1F2937;
     color: #f9faf8;
