@@ -13,6 +13,9 @@ body{
     margin-bottom: 50px;
     font-size: 20px;
 }
+.process {
+    padding-bottom: 20px;
+}
 
 .header, .subheader, .footer{
     background-color: #1F2937;
@@ -64,10 +67,28 @@ body{
     justify-content: center;
     padding-top: 50px;
 }
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kop{
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+
+p{
+    text-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
 .image{
     border: 2px solid #3882F6;
-    max-width: 150px;
     height: 150px;
     width: 150px;
     border-radius: 10px;
@@ -108,11 +129,6 @@ body{
     padding: 200px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-a{
-    text-decoration: none;
-    color: #f9faf8;
 }
 
 .container{
