@@ -16,6 +16,10 @@ body{
 .process {
     padding-bottom: 20px;
 }
+a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
 
 .header, .subheader, .footer{
     background-color: #1F2937;
