@@ -83,8 +83,28 @@ a{
     padding-top: 20px;
     padding-left: 200px;
 }
-
-
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cv {
+    width: 200px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 3px #737c88;
+}
+.cv:hover {
+    background-color: rgb(255, 187, 0);
+}
 p{
     text-wrap: wrap;
     padding-left: 200px;
